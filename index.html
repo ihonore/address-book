@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7775d9e45e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Address Book</title>
+</head>
+
+<body onload="displayContacts()">
+  <section>
+    <div class="input-contact">
+      <form action="">
+        <input type="text" placeholder="Full Name" name="names" required>
+        <input type="email" placeholder="Email address" name="email" required>
+        <input type="tel" placeholder="Phone Number" name="phone" required>
+        <input type="text" placeholder="Address" name="address" required>
+        <input type="submit" value="Add Contact" id="submit" required>
+      </form>
+    </div>
+    <div class="display-contacts">
+      <h3><span id="counter"></span> Contacts</h3>
+      <div class="contacts-wrapper">
+        <!-- All contacts to be displayed here -->
+      </div>
+    </div>
+    <div class="contact-details">
+      <h4> Select contact to display</h4>
+      <!-- Selected Contact Details to be displayed here -->
+
+    </div>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
+</html>

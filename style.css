@@ -1,0 +1,149 @@
+body {
+  background: #fafafa;
+}
+
+section {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* background-color: red; */
+  justify-content: center;
+  /* align-items: center; */
+  padding: auto 1rem;
+  height: 80vh;
+}
+.input-contact,
+.display-contacts,
+.contact-details {
+  width: 30%;
+}
+
+.input-contact {
+  margin: auto 0;
+}
+
+.display-contacts h3 {
+  text-align: center;
+  background-color: white;
+  border: 1px solid rgba(206, 203, 203, 0.418);
+}
+.display-contacts h3 span {
+  color: #1089ff;
+  font-weight: 600;
+}
+.contact-details {
+  background: #1089ff;
+  height: 95vh;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+form {
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: white;
+  padding: 2rem;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+}
+#submit {
+  background: #1089ff;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+#submit:hover {
+  background: #3b96f1;
+}
+input:focus {
+  outline: 2px solid rgb(52, 116, 236);
+}
+.contacts-wrapper {
+  background-color: #95e1d3;
+  padding: 1rem;
+  height: 100%;
+}
+.contact {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.contact:hover {
+  box-shadow: 0 2px 5px #9795954f;
+}
+.avatar-names {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.names {
+  font-weight: 600;
+}
+.phone {
+  font-size: 13px;
+  color: gray;
+}
+.avatar {
+  background: #1f4690;
+  color: white;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.actions {
+  color: #e94560;
+  font-size: 1.2rem;
+  z-index: 100;
+}
+.actions i:hover {
+  color: red;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2895ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.contact-item p {
+  font-weight: 500;
+}
+
+.active {
+  border-top: 5px solid #2895ff;
+  box-shadow: rgba(50, 50, 93, 0.534) 2px 2px 5px -1px,
+    rgba(0, 0, 0, 0.418) 0px 1px 3px -1px;
+}
